@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e133d831ac843f45b2ded4886a68f6b, type: 3}
+  m_Name: RandomDefense
+  m_EditorClassIdentifier: 
+  _name: "\u968F\u673A\u9632\u5FA1"
+  _nature: 1
+  _isRandom: 1
+  _probWithDPUpper: 50
+  _probWithDPLower: 50
+  _probWithoutDPUpper: 50
+  _probWithoutDPLower: 50
+  _hitUpperValue: 0
+  _hitLowerValue: 0
+  _defenseUpperPercentage: 0.25
+  _defenseLowerPercentage: 0.25
+  _DPRecoverPercentage: 0

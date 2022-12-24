@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3237714156282940391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8440328604140940268}
+  - component: {fileID: 3677662952617305710}
+  m_Layer: 0
+  m_Name: Boss0_Tutorial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8440328604140940268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3237714156282940391}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3677662952617305710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3237714156282940391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41079a788d184ba40b79eeaf5b8886dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hitPoint: 1000
+  _hitPointCurrent: 0
+  _defensePoint: 0
+  _defensePointCurrent: 0
+  _opponent: {fileID: 0}
+  _camp: 1
+  _buffList: []
+  _cardList: []
+  _totalCost: 0
+  _latestCriticalComboOn: 2
+  _criticalComboProbability: 0
+  _opponentDelayAction: 0
+  _oppHitPointsBasicUpper: 0
+  _oppHitPointsBasicLower: 0
+  _oppHitPercentUpper: 1
+  _oppHitPercentLower: 1
+  _myDefensePercentUpper: 0
+  _myDefensePercentLower: 0
+  _phaseRange: []
+  behaviors:
+  - {fileID: 11400000, guid: 0f53f905c8e700c42a15cda839584c96, type: 2}
+  - {fileID: 11400000, guid: 0f53f905c8e700c42a15cda839584c96, type: 2}
+  - {fileID: 11400000, guid: 710f92da8bdce47429bfd453ade1525c, type: 2}
+  - {fileID: 11400000, guid: 0f53f905c8e700c42a15cda839584c96, type: 2}
+  - {fileID: 11400000, guid: 30a8897d67cf96943950f2a6af50a3b3, type: 2}
+  _currentBehavior: 0
+  _currentPhase: 0

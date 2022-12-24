@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e133d831ac843f45b2ded4886a68f6b, type: 3}
+  m_Name: RandomAttackOrDP
+  m_EditorClassIdentifier: 
+  _name: "\u968F\u673A\u653B\u51FB\u6216\u56DE\u76FE"
+  _nature: 0
+  _isRandom: 1
+  _probWithDPUpper: 60
+  _probWithDPLower: 15
+  _probWithoutDPUpper: 15
+  _probWithoutDPLower: 60
+  _hitUpperValue: 100
+  _hitLowerValue: 50
+  _defenseUpperPercentage: 0
+  _defenseLowerPercentage: 0
+  _DPRecoverPercentage: 0.05
